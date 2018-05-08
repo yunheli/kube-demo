@@ -7,7 +7,7 @@ WORKDIR $WORKDIR
 
 COPY . $WORKDIR/CODE
 
-COPY settings.xml /root/.m2/
+#COPY settings.xml /root/.m2/
 
 RUN cd $WORKDIR/CODE \
     && mvn clean install \
