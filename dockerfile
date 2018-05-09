@@ -5,15 +5,17 @@ ENV WORKDIR=/kubenetes
 
 WORKDIR $WORKDIR
 
-COPY . $WORKDIR/CODE
+COPY target/demo-0.0.1-SNAPSHOT.jar .
+
+#COPY . $WORKDIR/CODE
 
 #COPY settings.xml /root/.m2/
 
-RUN cd $WORKDIR/CODE \
-    && mvn clean install \
-    && cp target/demo-0.0.1-SNAPSHOT.jar ../ \
-    && rm -rf $MVN_CACHE \
-    && rm -rf $WORKDIR/CODE
+#RUN cd $WORKDIR/CODE \
+#    && mvn clean install \
+#    && cp target/demo-0.0.1-SNAPSHOT.jar ../ \
+#    && rm -rf $MVN_CACHE \
+#    && rm -rf $WORKDIR/CODE
 
 expose 8080
 
