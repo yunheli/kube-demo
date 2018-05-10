@@ -31,4 +31,9 @@ public class HelloController {
     public String index() {
         return "Hello Worldabcdef";
     }
+
+    @GetMapping("/show")
+    public String show() {
+        return "show something";
+    }
 }
