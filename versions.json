@@ -1,2 +1,36 @@
 {
+  "logs": {
+    "1.2.3": [
+      "item1",
+      "item2"
+    ]
+  },
+
+  "markets": {
+    "ios_default": {
+      "force": true,
+      "url": "http://xxx/ios/default",
+      "version": "1.2.3"
+    },
+    "ios_enterprise": {
+      "force": true,
+      "url": "http://xxx/ios/enterprise",
+      "version": "1.2.3"
+    },
+    "android_default": {
+      "force": true,
+      "url": "http://xxx/android/default",
+      "version": "1.2.3"
+    },
+    "android_xiaomi": {
+      "force": true,
+      "url": "http://xxx/android/xiaomi",
+      "version": "1.2.3"
+    },
+    "android_huawei": {
+      "force": true,
+      "url": "http://xxx/android/huawei",
+      "version": "1.2.3"
+    }
+  }
 }
