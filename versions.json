@@ -1,6 +1,6 @@
 {
   "logs": {
-    "1.2.3": [
+    "1.0.0": [
       "item1",
       "item2"
     ]
@@ -10,27 +10,27 @@
     "ios_default": {
       "force": false,
       "url": "https://download.fir.im/apps/5b482250959d6945590b6063/install?download_token=7b6f082d521c5befb72e9f1d03b3f7bf&release_id=5b8437f9ca87a86110f04cb0",
-      "version": "1.2.3"
+      "version": "1.0.0"
     },
     "ios_enterprise": {
       "force": false,
       "url": "https://download.fir.im/apps/5b482250959d6945590b6063/install?download_token=7b6f082d521c5befb72e9f1d03b3f7bf&release_id=5b8437f9ca87a86110f04cb0",
-      "version": "1.2.3"
+      "version": "1.0.0"
     },
     "android_default": {
       "force": false,
       "url": "https://download.fir.im/apps/5b482250959d6945590b6063/install?download_token=7b6f082d521c5befb72e9f1d03b3f7bf&release_id=5b8437f9ca87a86110f04cb0",
-      "version": "1.2.3"
+      "version": "1.0.0"
     },
     "android_xiaomi": {
       "force": false,
       "url": "https://download.fir.im/apps/5b482250959d6945590b6063/install?download_token=7b6f082d521c5befb72e9f1d03b3f7bf&release_id=5b8437f9ca87a86110f04cb0",
-      "version": "1.2.3"
+      "version": "1.0.0"
     },
     "android_huawei": {
       "force": false,
       "url": "https://download.fir.im/apps/5b482250959d6945590b6063/install?download_token=7b6f082d521c5befb72e9f1d03b3f7bf&release_id=5b8437f9ca87a86110f04cb0",
-      "version": "1.2.3"
+      "version": "1.0.0"
     }
   }
 }
